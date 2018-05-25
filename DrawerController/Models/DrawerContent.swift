@@ -187,7 +187,7 @@ public class DrawerContent {
         if drawerSide == .right {
             drawerOffset = superView.frame.width - width
         }
-        viewController.view.frame = CGRect(
+        contentView.frame = CGRect(
             x: CGFloat(-drawerOffset),
             y: 0,
             width: width,
