@@ -230,11 +230,11 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
     
     /// Actions
     @IBAction func openLeftSide(_ sender: Any) {
-        openSide(.left)
+        _ = self.openSide(.left)
     }
     
     @IBAction func openRightSide(_ sender: Any) {
-        openSide(.right)
+        _ = self.openSide(.right)
     }
     
     public func openSide(_ side: DrawerSide, completion: (()->())? = nil) {
